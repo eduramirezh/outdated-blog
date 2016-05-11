@@ -1,15 +1,21 @@
 # Site settings
-title: Eduardo's blog
+title: Coda
 email: edu.rh90@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Personal blog for Eduardo Ramírez. Web developer, Industrial Engineer,
-  and Hotel Julieta's bassist.
+  Edu Ramírez's personal blog. Software engineer at Nnodes by day,
+  Hotel Julieta's bass player by night.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ejramire.github.io" # the base hostname & protocol for your site
 twitter_username: eduramirezh
 github_username:  ejramire
 linkedin_id: 148761809
+instagram: eduramirezh
 
 
 # Build settings
 markdown: kramdown
+description_html: > 
+  Edu Ramírez’s personal blog. Software engineer at <a href="http://nnodes.com">Nnodes</a> by day,
+  <a href="https://play.spotify.com/artist/4R6ApsFDCgq0nH0K5U9uj8">Hotel Julieta</a>’s bass player by night.
+gems:
+  - jemoji

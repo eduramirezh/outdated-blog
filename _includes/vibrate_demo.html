@@ -1,0 +1,21 @@
+<script>
+  function playYYZ(){
+
+    navigator.vibrate = navigator.vibrate ||
+                        navigator.webkitVibrate || 
+                        navigator.mozVibrate || 
+                        navigator.msVibrate;
+    var dot = [100, 100];
+    var slash = [300, 100];
+    var y = slash.concat(dot, slash, slash);
+    var z = slash.concat(slash, dot, dot);
+    var yyz = y.concat(y).concat(z);
+    if (navigator.vibrate) {
+      navigator.vibrate(yyz);
+    }
+  }
+</script>
+<button class="button" id="yyz-demo" title="Click to vibrate to the rythm of YYZ"
+  href="PleaseEnableJavascript.html" onclick="playYYZ();return false;">
+  Play YYZ <img class="emoji" title=":guitar:" alt=":guitar:" src="https://assets.github.com/images/icons/emoji/unicode/1f3b8.png" height="20" width="20" align="absmiddle">
+</button>
