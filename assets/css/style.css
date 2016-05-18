@@ -601,6 +601,11 @@ ul.social li a.fa-tumblr			{ background: #2b4661; }
 ul.social li a.fa-tumblr:hover		{ background: #3b5671; }
 ul.social li a.fa-google-plus		{ background: #da2713; }
 ul.social li a.fa-google-plus:hover	{ background: #ea3723; }
+ul.social li a.fa-spotify		{ background: #1ed760; }
+ul.social li a.fa-spotify:hover	{ background: #21d962; }
+ul.social li a.fa-github		{ background: #151515; }
+ul.social li a.fa-github:hover	{ background: #181818; }
+ul.social li a.fa-instagram		{ background: #A1755C; }
 
 ol
 {
