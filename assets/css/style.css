@@ -742,7 +742,7 @@ ol.default li
 #main-wrapper
 {
   position: relative;
-  /*background: #f7f7f7 url('images/bg02.png');*/
+  background: #f7f7f7;
 }
 
 #main-wrapper:before

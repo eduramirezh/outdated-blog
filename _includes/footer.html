@@ -2,6 +2,39 @@
 <div id="footer-wrapper">
   <section id="footer" class="container">
     <div class="row">
+      <div class="8u">
+        <section>
+          <header>
+            <h2>Previous posts</h2>
+          </header>
+          <ul class="dates">
+            {% for post in site.posts offset: 0 limit: 5 %}
+            <li>
+              <span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
+              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+              {{ post.excerpt }}
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
+      <div class="4u">
+        <section>
+          <header>
+            <h2>Who writes this?</h2>
+          </header>
+          <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic10.jpg" alt="" /></a>
+          <p>
+            My name is Eduardo Ramírez. I'm a 25 years old Software Engineer from Chile. I love to write about my
+            two passions: Music &amp Software. You can learn more about me <a href=#>here</a>, and you can follow me on any of my social media sites.
+          </p>
+          <footer>
+            <a href="#" class="button">My CV</a>
+          </footer>
+        </section>
+      </div>
+    </div>
+    <div class="row">
       <div class="12u">
         <section>
           <header>
@@ -9,13 +42,13 @@
           </header>
           <ul class="social">
             <li><a class="icon fa-twitter" href="http://twitter.com/{{site.twitter_username}}"><span class="label">Twitter</span></a></li>
-            <li><a class="icon fa-linkedin" href="http://linkedin.com/{{site.linkedin_id}}"><span class="label">LinkedIn</span></a></li>
+            <li><a class="icon fa-linkedin" href="http://linkedin.com/in/{{site.linkedin_id}}"><span class="label">LinkedIn</span></a></li>
             <li><a class="icon fa-github" href="http://github.com/{{site.github_username}}"><span class="label">Github</span></a></li>
             <li><a class="icon fa-spotify" href="http://open.spotify.com/artist/4R6ApsFDCgq0nH0K5U9uj8"><span class="label">Spotify</span></a></li>
             <li><a class="icon fa-instagram" href="http://instagram.com/{{site.instagram}}"><span class="label">Instagram</span></a></li>
             <!--<li><a class="icon fa-spotify" href="http://linkedin.com/{{site.linkedin_id}}"><span class="label">Medium</span></a></li>-->
           </ul>
-<!--
+          <!--
           <ul class="contact">
             <li>
               <h3>Address</h3>
@@ -41,7 +74,7 @@
       <div class="12u">
 
         <!-- Copyright -->
-<!--
+        <!--
         <div id="copyright">
           <ul class="links">
             <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
@@ -49,7 +82,7 @@
             <li> Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
           </ul>
         </div>
--->
+        -->
 
       </div>
     </div>
