@@ -30,7 +30,7 @@
           clickToClose: true,
           html: '<div data-action="navList" data-args="nav"></div>',
           orientation: 'vertical'
-        },
+        }/*,
         titleBar: {
           breakpoints: 'mobile',
           position: 'top-left',
@@ -38,7 +38,7 @@
           height: 44,
           width: '100%',
           html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span><span class="title" data-action="copyHTML" data-args="logo"></span>'
-        }
+        }*/
       }
     }
   });
