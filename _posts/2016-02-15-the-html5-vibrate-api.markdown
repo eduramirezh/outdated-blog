@@ -3,6 +3,7 @@ layout: post
 title:  "The HTML5 Vibrate API"
 date:   2016-02-15 12:20:25
 categories: html5 mobile
+featured: /assets/images/20160401120446_vibracion.jpg
 ---
 ## The API
 ## Browser support
