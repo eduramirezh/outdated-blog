@@ -69,7 +69,7 @@ Now we assign the pattern
 </button>
 {% endhighlight %}
 
-####Result
+###Result
 
 If your browser is compatible, click here to see the API in action
 
