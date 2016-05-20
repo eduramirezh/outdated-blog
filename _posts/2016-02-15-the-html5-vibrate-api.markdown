@@ -5,7 +5,6 @@ date:   2016-05-18 12:20:25
 categories: html5 mobile
 featured: /assets/images/20160401120446_vibracion.jpg
 ---
-*Puedes leer una versión en español [aquí](http://nnodes.com/blog/2016/usando-la-vibration-api-de-html5)*
 
 In a recent project at [NNodes](http://nnodes.com/blog), we were asked to develop a website that simulated the *look & feel* of a native mobile app.
 One of the resources we used to accomplish this was the **HTML5 Vibration API**
@@ -77,3 +76,4 @@ If your browser is compatible, click here to see the API in action
 {% include vibrate_demo.html %}
 
 
+*Puedes leer una versión en español [aquí](http://nnodes.com/blog/2016/usando-la-vibration-api-de-html5)*
