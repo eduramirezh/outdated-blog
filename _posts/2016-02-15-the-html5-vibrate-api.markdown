@@ -16,7 +16,7 @@ This API allow us to control the vibration hardware on a device by calling the f
 navigator.vibrate([])
 {% endhighlight %}
 
-###Compatibility
+### Compatibility
 
 It's currently supported as an API by [Chrome, Firefox and Opera](http://caniuse.com/#feat=vibration), but it only has an effect on their mobile version.
 Even though it excludes Safari for iOS, it still makes up for around [64% of the mobile browsers market share](https://www.netmarketshare.com/browser-market-share.aspx?qprid=1&qpcustomb=1).
@@ -33,7 +33,7 @@ navigator.vibrate([100, 200, 100])
 will make the device vibrate for 100 milliseconds, then stop for 200, and then vibrate again for 100.
 We can use this to define patterns that extend the user experience (explosions in games, for example) or that reinforce the product identity.
 
-###Example
+### Example
 
 Let's take Rush's famous wordless anthem ['YYZ'](https://play.spotify.com/track/1E0ONfqq74b4gYhdlyhMSB) for our example.
 This song emulates the Morse code for the letters YYZ. So first, let's transform those dots and dashes
@@ -69,7 +69,7 @@ Now we assign the pattern
 </button>
 {% endhighlight %}
 
-###Result
+### Result
 
 If your browser is compatible, click here to see the API in action
 
