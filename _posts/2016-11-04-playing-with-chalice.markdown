@@ -17,7 +17,7 @@ In Nnodes, we've tried out frameworks like
 [Chalice](https://github.com/awslabs/chalice) for slackbots and small experiments. I really loved working
 with Chalice because of how easy is to set up a fully functional micro service, 
 and because I like Python a lot. This is why I've setup 
-[songsdata.eduramirez.com](http://songsdata.eduramirez.com).
+[musicdata.eduramirez.com](http://musicdata.eduramirez.com).
 
 # The architecture
 
@@ -35,9 +35,9 @@ the backend to get a specific artist's data.
 
 # The result
 
-![songsdata.eduramirez.com](/assets/images/songsdata_screenshot.png)
+![musicdata.eduramirez.com](/assets/images/songsdata_screenshot.png)
 
-In [songsdata.eduramirez.com](http://songsdata.eduramirez.com) you can 
+In [musicdata.eduramirez.com](http://musicdata.eduramirez.com) you can 
 look for any artist and display charts of the audio features of all of
 his/her songs.
 This features include duration, energy, and even danceability.
